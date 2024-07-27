@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_badminton_racket_store/models/badminton.dart';
 import 'package:flutter_badminton_racket_store/models/getx.dart';
 import 'package:flutter_badminton_racket_store/widgets/icon_appbar.dart';
@@ -19,7 +17,7 @@ class DetailScreen extends StatelessWidget {
         builder: (obverseItem) {
           return MaterialApp(
             home: Scaffold(
-              body: Container(
+              body: SizedBox(
                 height: double.infinity,
                 // color: Colors.cyan[50],
                 child: Column(
